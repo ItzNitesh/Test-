@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+
+.imge {
+    max-width: 70px;
+}
+
+.header-icon i{
+    margin: 10px;
+}
+
+.banner-img{
+    background-image: url("https://activecities.com/wp-content/uploads/2018/10/Glow-In-The-Dark-Volleyball.jpg");
+    width: 100%;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+}
+.banner-img h1{
+    position: absolute;
+    top: 350px;
+    color: white;
+    left: 70px;
+}
+.banner-img p{
+    position: absolute;
+    top: 500px;
+    color: white;
+    left: 70px;
+}
+.banner-img button{
+    position: absolute;
+    top: 550px;
+    color: white;
+    left: 70px;
+}
+
+.carousel-cell img{
+    max-width: 200px;
+    background-color: rgb(1, 0, 0);
+    border-radius: 50%;
+    background-position: center;
+    object-fit: cover;
+
+}
+
+.game_img img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    text-align: 0 auto;
+    border-radius: 20px;
+}
+.bg-color{
+    background-color: rgba(255, 182, 193, 0.375);
+}
+
+.cardd i{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 60px;
+    border-radius: 50%;
+    color: lightpink;
+    background-color: #fff;
+}
+.shop img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    border-radius: 50%;
+    position: relative;
+}
+
+
+.card img{
+    max-width: 100%;
+    height: 300px;
+    object-fit: cover;
+
+}
+
+.card-text{
+    color: red;
+}
+.span{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.fa-star{
+    color: darkorange;
+}
+
+.atmcard img{
+    width: 100%;
+    border-radius: 10px;
+    justify-content: space-between;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+.footer input{
+    width: 100%;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+}
+.footer input::placeholder{
+    text-align: center;
+}
+
+.socail i{
+    /* margin: 10px; */
+    text-align: center;
+    padding: 10px;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+.footer a:hover{
+    color:
+     rgba(255, 255, 255, 0.764);
+}
